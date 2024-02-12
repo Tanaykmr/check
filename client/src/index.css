@@ -1,0 +1,13 @@
+body {
+    background-image: url("./assets/todo-app-bg.png");
+    width: 100vw;
+    min-height: 100vh; /* Use min-height instead of height */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Remove default body margin */
+    padding: 0;
+    overflow-x: hidden;
+
+    /* Consider removing overflow-x: hidden; if it's causing issues */
+}
